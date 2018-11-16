@@ -163,6 +163,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Anotacoes.txt" />
     <Content Include="Content\css\animate.css" />
     <Content Include="Content\css\bootstrap-progressbar-3.3.4.css" />
     <Content Include="Content\css\bootstrap.css" />
@@ -262,6 +263,10 @@
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Dominio\Dominio.csproj">
+      <Project>{f4ad758d-c923-48a9-8de6-56123ef6a220}</Project>
+      <Name>Dominio</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Logger\Logger.csproj">
       <Project>{4eaf95f3-dd1a-46cf-9e6d-d8e28b7018f9}</Project>
       <Name>Logger</Name>

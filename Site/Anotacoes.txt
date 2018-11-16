@@ -1,0 +1,12 @@
+﻿SQL Server LocalDB
+
+https://www.mssqltips.com/sqlservertip/5612/getting-started-with-sql-server-2017-express-localdb/
+
+SqlLocalDb create "IntenselyDB"
+SqlLocalDb info "IntenselyDB"
+SqlLocalDb start "IntenselyDB"
+sqlcmd -S "(localdb)\IntenselyDB"
+select @@version
+go
+
+---------------------------------
