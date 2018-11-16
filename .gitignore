@@ -5,4 +5,8 @@
 /.vs
 /packages
 /Site/bin
-/Site/obj/Debug
+/Site/obj
+/Logger/bin
+/Logger/obj
+/Dominio/bin
+/Dominio/obj
