@@ -154,6 +154,73 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\css\animate.css" />
+    <Content Include="Content\css\bootstrap-progressbar-3.3.4.css" />
+    <Content Include="Content\css\bootstrap.css" />
+    <Content Include="Content\css\font-awesome.css" />
+    <Content Include="Content\css\jquery.fancybox.css" />
+    <Content Include="Content\css\slick.css" />
+    <Content Include="Content\css\style.css" />
+    <Content Include="Content\css\theme-color\bridge-theme.css" />
+    <Content Include="Content\css\theme-color\dark-red-theme.css" />
+    <Content Include="Content\css\theme-color\default-theme.css" />
+    <Content Include="Content\css\theme-color\fountain-blue-theme.css" />
+    <Content Include="Content\css\theme-color\green-theme.css" />
+    <Content Include="Content\css\theme-color\lite-blue-theme.css" />
+    <Content Include="Content\css\theme-color\orange-theme.css" />
+    <Content Include="Content\css\theme-color\pink-theme.css" />
+    <Content Include="Content\css\theme-color\purple-theme.css" />
+    <Content Include="Content\css\theme-color\red-theme.css" />
+    <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\images\amazon.png" />
+    <Content Include="Content\images\blog-img-1.jpg" />
+    <Content Include="Content\images\blog-img-2.jpg" />
+    <Content Include="Content\images\blog-img-3.jpg" />
+    <Content Include="Content\images\counter-bg.jpg" />
+    <Content Include="Content\images\discovery.png" />
+    <Content Include="Content\images\envato.png" />
+    <Content Include="Content\images\fancybox_buttons.png" />
+    <Content Include="Content\images\fancybox_loading%402x.gif" />
+    <Content Include="Content\images\fancybox_loading.gif" />
+    <Content Include="Content\images\fancybox_overlay.png" />
+    <Content Include="Content\images\fancybox_sprite%402x.png" />
+    <Content Include="Content\images\fancybox_sprite.png" />
+    <Content Include="Content\images\favicon.ico" />
+    <Content Include="Content\images\loader.gif" />
+    <Content Include="Content\images\person1.png" />
+    <Content Include="Content\images\person2.png" />
+    <Content Include="Content\images\portfolio\portfolio-1.jpg" />
+    <Content Include="Content\images\portfolio\portfolio-2.jpg" />
+    <Content Include="Content\images\portfolio\portfolio-3.jpg" />
+    <Content Include="Content\images\portfolio\portfolio-4.jpg" />
+    <Content Include="Content\images\portfolio\portfolio-5.jpg" />
+    <Content Include="Content\images\portfolio\portfolio-big-1.jpg" />
+    <Content Include="Content\images\portfolio\portfolio-big-2.jpg" />
+    <Content Include="Content\images\portfolio\portfolio-big-3.jpg" />
+    <Content Include="Content\images\portfolio\portfolio-big-4.jpg" />
+    <Content Include="Content\images\portfolio\portfolio-big-5.jpg" />
+    <Content Include="Content\images\slider-1.jpg" />
+    <Content Include="Content\images\slider-3.jpg" />
+    <Content Include="Content\images\slider-5.jpg" />
+    <Content Include="Content\images\subscribe-bg.jpg" />
+    <Content Include="Content\images\team-member-1.png" />
+    <Content Include="Content\images\team-member-2.png" />
+    <Content Include="Content\images\team-member-3.png" />
+    <Content Include="Content\images\testi1.jpg" />
+    <Content Include="Content\images\testi2.jpg" />
+    <Content Include="Content\images\testi3.jpg" />
+    <Content Include="Content\images\testimonial-1.jpg" />
+    <Content Include="Content\images\tuenti.png" />
+    <Content Include="Content\js\bootstrap-progressbar.js" />
+    <Content Include="Content\js\bootstrap.js" />
+    <Content Include="Content\js\custom.js" />
+    <Content Include="Content\js\jquery.counterup.js" />
+    <Content Include="Content\js\jquery.fancybox.pack.js" />
+    <Content Include="Content\js\jquery.mixitup.js" />
+    <Content Include="Content\js\slick.js" />
+    <Content Include="Content\js\waypoints.js" />
+    <Content Include="Content\js\wow.js" />
     <Content Include="Global.asax" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -170,12 +237,20 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Content\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Content\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\fonts\FontAwesome.otf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>

@@ -7,7 +7,8 @@ namespace Site.App_Start
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                "~/Content/css/*.css"
+                "~/Content/css/*.css",
+                "~/Content/css/theme-color/*.css"
                 ));
             bundles.Add(new ScriptBundle("~/Content/js").Include(
                 "~/Content/js/*.js"
