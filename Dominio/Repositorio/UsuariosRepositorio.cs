@@ -11,6 +11,24 @@ namespace Dominio.Repositorio
         private readonly EfDbContext _context = new EfDbContext();
 
         /// <summary>
+        /// Busca um usuário na tabela USUARIOS por meio do seu ID (PK)
+        /// </summary>
+        /// <param name="id">ID do usuário</param>
+        /// <returns>Usuário encontrado ou null</returns>
+        public Usuario ObterUsuario(int id)
+        {
+            try
+            {
+                return _context?.Usuarios?.FirstOrDefault(x => id == x.Id) ?? null;
+            }
+            catch (Exception e)
+            {
+                Log.Error(e, "Erro ao obter usuário");
+                return null;
+            }
+        }
+
+        /// <summary>
         /// Busca um usuário na tabela USUARIOS por meio do seu e-mail cadastrado
         /// </summary>
         /// <param name="email">e-mail do usuário</param>

@@ -3,6 +3,7 @@ using System;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using System.Web.Security;
 
 namespace Site
 {
@@ -19,6 +20,7 @@ namespace Site
         protected void Application_End(object sender, EventArgs e)
         {
             Logger.Log.Shutdown();
+            FormsAuthentication.SignOut();
         }
     }
 }

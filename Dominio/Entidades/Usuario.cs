@@ -41,14 +41,11 @@ namespace Dominio.Entidades
         [Required(ErrorMessage = "Digite a senha")]
         [DataType(DataType.Password)]
         public string Senha { get; set; }
-
-        [Required]
+        
         public DateTime UltimoAcesso { get; set; }
-
-        [Required]
+        
         public string Nome { get; set; }
-
-        [Required]
+        
         public bool IsAdmin { get; set; }
     }
 }

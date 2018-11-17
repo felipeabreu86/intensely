@@ -17,7 +17,8 @@ namespace Site.Areas.Restrito
             context.MapRoute(
                 "Restrito_default",
                 "Restrito/{controller}/{action}/{id}",
-                new { controller = "Inicio", action = "Index", id = UrlParameter.Optional }
+                new { controller = "Inicio", action = "Index", id = UrlParameter.Optional },
+                new[] { "Site.Areas.Restrito.Controllers" }
             );
         }
     }
