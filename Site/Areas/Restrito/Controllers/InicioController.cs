@@ -13,7 +13,11 @@ namespace Site.Areas.Restrito.Controllers
         public ActionResult Index()
         {
             var idUsuario = User.Identity.Name;
-            return View(UsuarioViewModel.GetInstance(idUsuario));
+            var viewModel = UsuarioViewModel.GetInstance(idUsuario);
+            if (viewModel != null)
+                return View(viewModel);
+            else
+                return RedirectToAction("Logout", "Autenticacao", new { area = "" });
         }
     }
 }

@@ -21,12 +21,16 @@ namespace Site.Areas.Restrito.Models
 
         public static UsuarioViewModel GetInstance(string userId)
         {
-            int id = 0;
-            int.TryParse(userId, out id);
-            if (id > 0)
-                return GetByUserId(id);
-            else
-                return new UsuarioViewModel();
+            if (!string.IsNullOrEmpty(userId))
+            {
+                int id = 0;
+                int.TryParse(userId, out id);
+                if (id > 0)
+                {
+                    return GetByUserId(id);
+                }
+            }
+            return null;
         }
 
         private static UsuarioViewModel GetByUserId(int id)
