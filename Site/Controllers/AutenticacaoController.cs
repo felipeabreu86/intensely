@@ -12,6 +12,10 @@ namespace Site.Controllers
         [HttpGet]
         public ActionResult Login()
         {
+            if (Request.IsAuthenticated)
+            {
+                return RedirectToAction("Index", "Inicio", new { area = "Restrito" });
+            }
             return View(new Usuario());
         }
 

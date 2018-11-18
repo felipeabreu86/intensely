@@ -6,6 +6,7 @@ namespace Site.App_Start
     {
         public static void RegisterBundles(BundleCollection bundles)
         {
+            // Área Pública
             bundles.Add(new StyleBundle("~/Content/css").Include(
                 "~/Content/css/*.css",
                 "~/Content/css/theme-color/default-theme.css"
@@ -13,7 +14,7 @@ namespace Site.App_Start
             bundles.Add(new ScriptBundle("~/Content/js").Include(
                 "~/Content/js/*.js"
                 ));
-
+            // Área Restrita
             bundles.Add(new StyleBundle("~/Areas/Restrito/Content/css").Include(
                 "~/Areas/Restrito/Content/css/*.css",
                 "~/Areas/Restrito/Content/css/bootstrap.min.css"
@@ -27,7 +28,6 @@ namespace Site.App_Start
                 "~/Areas/Restrito/Content/js/plugins/chartist.min.js",
                 "~/Areas/Restrito/Content/js/plugins/nouislider.min.js"
                 ));
-
             BundleTable.EnableOptimizations = false;
         }
     }
