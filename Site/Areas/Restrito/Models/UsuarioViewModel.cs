@@ -6,20 +6,36 @@ namespace Site.Areas.Restrito.Models
 {
     public class UsuarioViewModel
     {
-        string Email { get; set; }
-        string Nome { get; set; }
+        public string Email { get; }
+        public string Nome { get; }
+        public bool IsAdmin { get; }
 
-        public static UsuarioViewModel GetById(int id)
+        private UsuarioViewModel() { }
+
+        private UsuarioViewModel(string email, string nome, bool isAdmin)
+        {
+            Email = email;
+            Nome = nome;
+            IsAdmin = isAdmin;
+        }
+
+        public static UsuarioViewModel GetInstance(string userId)
+        {
+            int id = 0;
+            int.TryParse(userId, out id);
+            if (id > 0)
+                return GetByUserId(id);
+            else
+                return new UsuarioViewModel();
+        }
+
+        private static UsuarioViewModel GetByUserId(int id)
         {
             IUsuariosRepositorio usuarios = new UsuariosRepositorio();
             Usuario usuario = usuarios.ObterUsuario(id);
-            if(usuario != null)
+            if (usuario != null)
             {
-                return new UsuarioViewModel()
-                {
-                    Email = usuario.Email,
-                    Nome = usuario.Nome
-                };
+                return new UsuarioViewModel(usuario.Email, usuario.Nome, usuario.IsAdmin);
             }
             return null;
         }

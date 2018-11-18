@@ -23,16 +23,16 @@ namespace Site.Controllers
             {
                 IUsuariosRepositorio usuarios = new UsuariosRepositorio();
                 Usuario usuario = usuarios.ObterUsuario(usuarioInput.Email);
-                if(usuario == null || !Equals(usuario.Senha, usuarioInput.Senha))
+                if (usuario == null || !Equals(usuario.Senha, usuarioInput.Senha))
                 {
                     ModelState.AddModelError(string.Empty, "E-mail ou senha incorretos");
                 }
                 else
                 {
-                    FormsAuthentication.SetAuthCookie(usuario.Email, false);
+                    FormsAuthentication.SetAuthCookie(usuario.Id.ToString(), false);
                     usuario.UltimoAcesso = DateTime.Now;
                     usuarios.SalvarOuAtualizar(usuario);
-                    return RedirectToAction("Index", "Inicio", new { area = "Restrito", id = usuario.Id });
+                    return RedirectToAction("Index", "Inicio", new { area = "Restrito" });
                 }
             }
             return View();

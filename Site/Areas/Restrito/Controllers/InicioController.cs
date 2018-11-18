@@ -9,12 +9,11 @@ namespace Site.Areas.Restrito.Controllers
         /// <summary>
         /// Carrega a tela inicial da área restrita do site
         /// </summary>
-        /// <param name="id">Id do Usuário</param>
         /// <returns>View da área restrita</returns>
-        public ActionResult Index(int id)
+        public ActionResult Index()
         {
-            var viewModel = UsuarioViewModel.GetById(id);
-            return View(viewModel);
+            var idUsuario = User.Identity.Name;
+            return View(UsuarioViewModel.GetInstance(idUsuario));
         }
     }
 }
