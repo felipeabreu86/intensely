@@ -169,6 +169,40 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Anotacoes.txt" />
+    <Content Include="Areas\Restrito\Content\css\bootstrap.min.css" />
+    <Content Include="Areas\Restrito\Content\css\light-bootstrap-dashboard.css" />
+    <Content Include="Areas\Restrito\Content\fonts\nucleo-icons.svg" />
+    <Content Include="Areas\Restrito\Content\img\apple-icon.png" />
+    <Content Include="Areas\Restrito\Content\img\default-avatar.png" />
+    <Content Include="Areas\Restrito\Content\img\faces\face-0.jpg" />
+    <Content Include="Areas\Restrito\Content\img\faces\face-1.jpg" />
+    <Content Include="Areas\Restrito\Content\img\faces\face-2.jpg" />
+    <Content Include="Areas\Restrito\Content\img\faces\face-3.jpg" />
+    <Content Include="Areas\Restrito\Content\img\faces\face-4.jpg" />
+    <Content Include="Areas\Restrito\Content\img\faces\face-5.jpg" />
+    <Content Include="Areas\Restrito\Content\img\faces\face-6.jpg" />
+    <Content Include="Areas\Restrito\Content\img\faces\face-7.jpg" />
+    <Content Include="Areas\Restrito\Content\img\faces\tim_vector.jpe" />
+    <Content Include="Areas\Restrito\Content\img\favicon.ico" />
+    <Content Include="Areas\Restrito\Content\img\full-screen-image-3.jpg" />
+    <Content Include="Areas\Restrito\Content\img\loading-bubbles.svg" />
+    <Content Include="Areas\Restrito\Content\img\mask.png" />
+    <Content Include="Areas\Restrito\Content\img\new_logo.png" />
+    <Content Include="Areas\Restrito\Content\img\sidebar-1.jpg" />
+    <Content Include="Areas\Restrito\Content\img\sidebar-2.jpg" />
+    <Content Include="Areas\Restrito\Content\img\sidebar-3.jpg" />
+    <Content Include="Areas\Restrito\Content\img\sidebar-4.jpg" />
+    <Content Include="Areas\Restrito\Content\img\sidebar-5.jpg" />
+    <Content Include="Areas\Restrito\Content\img\tim_80x80.png" />
+    <Content Include="Areas\Restrito\Content\js\core\bootstrap.min.js" />
+    <Content Include="Areas\Restrito\Content\js\core\jquery.3.2.1.min.js" />
+    <Content Include="Areas\Restrito\Content\js\core\popper.min.js" />
+    <Content Include="Areas\Restrito\Content\js\light-bootstrap-dashboard.js" />
+    <Content Include="Areas\Restrito\Content\js\plugins\bootstrap-datepicker.js" />
+    <Content Include="Areas\Restrito\Content\js\plugins\bootstrap-notify.js" />
+    <Content Include="Areas\Restrito\Content\js\plugins\bootstrap-switch.js" />
+    <Content Include="Areas\Restrito\Content\js\plugins\chartist.min.js" />
+    <Content Include="Areas\Restrito\Content\js\plugins\nouislider.min.js" />
     <Content Include="Content\css\animate.css" />
     <Content Include="Content\css\bootstrap-progressbar-3.3.4.css" />
     <Content Include="Content\css\bootstrap.css" />
@@ -295,6 +329,45 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Autenticacao\Login.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\Restrito\Content\fonts\nucleo-icons.eot" />
+    <Content Include="Areas\Restrito\Content\fonts\nucleo-icons.ttf" />
+    <Content Include="Areas\Restrito\Content\fonts\nucleo-icons.woff" />
+    <Content Include="Areas\Restrito\Content\fonts\nucleo-icons.woff2" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\mixins\_buttons.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\mixins\_cards.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\mixins\_chartist.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\mixins\_icons.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\mixins\_inputs.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\mixins\_labels.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\mixins\_morphing-buttons.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\mixins\_navbars.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\mixins\_social-buttons.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\mixins\_tabs.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\mixins\_transparency.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\mixins\_vendor-prefixes.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\plugins\_animate.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\plugins\_datetime-picker.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\_alerts.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\_bootstrap-switch.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\_buttons.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\_cards.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\_chartist.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\_checkbox-radio-switch.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\_dropdown.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\_footers.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\_inputs.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\_misc.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\_mixins.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\_navbars.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\_partial-nucleo-icons.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\_responsive.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\_sidebar-and-main-panel.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\_tables.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\_typography.scss" />
+    <Content Include="Areas\Restrito\Content\sass\lbd\_variables.scss" />
+    <Content Include="Areas\Restrito\Content\sass\light-bootstrap-dashboard.scss" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
